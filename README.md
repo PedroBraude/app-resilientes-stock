@@ -1,38 +1,82 @@
-# sv
+# Resilientes Stock Management System
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+## Description
+An inventory management system specifically designed for Resilientes clothing store in Argentina. This application enables efficient stock management and maintains detailed inventory control.
 
-## Creating a project
+## Features
+- Real-time inventory control
+- Product and category management
+- Low stock alert system
+- Inventory reports
+- Sales tracking
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Prerequisites
+- Node.js (version 18 or higher)
+- npm or yarn
+- Modern web browser
 
+## Installation
+1. Clone the repository
 ```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
+git clone https://github.com/your-username/app-resilientes-stock.git
+cd app-resilientes-stock
 ```
 
-## Developing
+2. Install dependencies
+```bash
+npm install
+# or
+yarn install
+```
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+3. Configure environment variables
+```bash
+cp .env.example .env
+# Edit .env file with necessary configuration
+```
 
+## Usage
+To start the application in development mode:
 ```bash
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+# or
+yarn dev
 ```
 
-## Building
-
-To create a production version of your app:
-
+To build the application for production:
 ```bash
 npm run build
+# or
+yarn build
 ```
 
-You can preview the production build with `npm run preview`.
+## Technologies Used
+- SvelteKit
+- TypeScript
+- Tailwind CSS
+- PostgreSQL (database)
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+## Project Structure
+```
+app-resilientes-stock/
+├── src/
+│   ├── routes/         # Pages and routes
+│   ├── lib/           # Components and utilities
+│   └── app.css        # Global styles
+├── static/           # Static files
+└── tests/           # Tests
+```
+
+## Contributing
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/NewFeature`)
+3. Commit your changes (`git commit -m 'Add new feature'`)
+4. Push to the branch (`git push origin feature/NewFeature`)
+5. Open a Pull Request
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+Developer Name - [your@email.com]
+Project Link: [https://github.com/your-username/app-resilientes-stock](https://github.com/your-username/app-resilientes-stock)
