@@ -1,5 +1,12 @@
 # Resilientes Stock Management System
 
+**WIP for Resilientes - Tienda de Ropa** 
+
+[Instagram Account of Resilientes](https://www.instagram.com/resilientesok/).
+
+[Demo App](https://app-resilientes-stock.onrender.com/) - A demo version of the app deployed for testing purposes.
+
+
 ## Description
 An inventory management system specifically designed for Resilientes clothing store in Argentina. This application enables efficient stock management and maintains detailed inventory control.
 
@@ -76,7 +83,3 @@ app-resilientes-stock/
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-Developer Name - [your@email.com]
-Project Link: [https://github.com/your-username/app-resilientes-stock](https://github.com/your-username/app-resilientes-stock)
